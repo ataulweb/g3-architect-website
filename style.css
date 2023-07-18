@@ -1,16 +1,36 @@
 /* Work Sans font from google font */
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Work+Sans:wght@400;500;600;700;800&display=swap');
 
+/* Shared style */
 *{
     font-family: 'Work Sans', sans-serif;
 }
+
+.primary-btn{
+    border-radius: 8px;
+    background: #FF900E; 
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600; 
+    padding: 20px 25px;
+    cursor: pointer;
+    border: 0;
+}
+.text-light-gray{
+    color: #727272;
+}
+
+/* Header style starts here */
 header{
     background: rgba(255, 144, 14, 0.10);
     padding: 50px 240px;
 }
+
+/* nav style starts here */
 nav{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .nav-title{
     font-size: 3rem;
@@ -31,3 +51,56 @@ nav li a{
     text-decoration: none;
     color: #424242;
 }
+
+/* Banner style starts here */
+.banner-content{
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+.banner-title{
+    color: #131313;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.banner-section img{
+    margin-top: 20px;
+    width: 100%;
+}
+/* main styles */
+main{
+    max-width: 1440px;
+    margin: 70px auto;
+}
+
+/* teams styles */
+.teams-container{
+    display: flex;
+    align-items: center;
+}
+.team-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+.teams-content{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.teams-title .quick-list{
+    color: #727272;
+    font-weight: 500;
+    font-size: 3rem; 
+}
+.teams-title .of-our{
+    color: #131313;
+    font-weight: 700;
+    font-size: 3rem;
+}
+.teams-title .text-features{
+    color: #FF900E;
+    font-size: 3rem;
+    font-weight: 700; 
+}
+

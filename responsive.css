@@ -1,0 +1,29 @@
+/* For Mobile Responsive */
+
+@media screen and (max-width:576px) {
+    header{
+        padding: 20px;
+    }
+    nav, .teams-container{
+        flex-direction: column;
+    }
+    .team-img-container{
+        grid-template-columns: 1fr;
+    }
+    .teams-content{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+/* For Tablet   */
+@media screen and (min-width: 577px) and (max-width:992px) {
+    header{
+        padding: 50px;
+    }
+
+    nav, .teams-container{
+        flex-direction: column;
+    }
+
+}
