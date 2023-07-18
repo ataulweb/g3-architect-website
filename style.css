@@ -128,3 +128,21 @@ main{
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+/* Sponsors style */
+
+.sponsor{
+    text-align: center;
+}
+
+.sponsor-img-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    
+}
+.sponsor-img-container img{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #e9bd8b;
+}
